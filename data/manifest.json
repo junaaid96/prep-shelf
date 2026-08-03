@@ -1,0 +1,115 @@
+{
+  "generatedAt": "2026-08-03T20:00:33.342Z",
+  "siteName": "PrepShelf",
+  "tagline": "Your prep notes, organized by topic",
+  "topics": [
+    {
+      "id": "backend",
+      "label": "Backend",
+      "notes": [
+        {
+          "id": "7-backend-architecture-patterns",
+          "filename": "7-backend-architecture-patterns.md",
+          "title": "7 Backend Architecture Patterns — Deep Dive Guide",
+          "path": "content/backend/7-backend-architecture-patterns.md"
+        },
+        {
+          "id": "backend-optimization-patterns-guide",
+          "filename": "backend-optimization-patterns-guide.md",
+          "title": "Advanced Backend Optimization Patterns — Deep Dive",
+          "path": "content/backend/backend-optimization-patterns-guide.md"
+        }
+      ]
+    },
+    {
+      "id": "interview-mcq",
+      "label": "Interview MCQ",
+      "notes": [
+        {
+          "id": "01-Programming",
+          "filename": "01-Programming.md",
+          "title": "📘 Programming — MCQ Test Preparation Guide",
+          "path": "content/interview-mcq/01-Programming.md"
+        },
+        {
+          "id": "02-Data-Structures-Algorithms",
+          "filename": "02-Data-Structures-Algorithms.md",
+          "title": "📗 Data Structures & Algorithms — MCQ Test Preparation Guide",
+          "path": "content/interview-mcq/02-Data-Structures-Algorithms.md"
+        },
+        {
+          "id": "03-CS-Fundamentals",
+          "filename": "03-CS-Fundamentals.md",
+          "title": "📙 CS Fundamentals — MCQ Test Preparation Guide",
+          "path": "content/interview-mcq/03-CS-Fundamentals.md"
+        },
+        {
+          "id": "04-Logical-Reasoning",
+          "filename": "04-Logical-Reasoning.md",
+          "title": "📕 Logical Reasoning — MCQ Test Preparation Guide",
+          "path": "content/interview-mcq/04-Logical-Reasoning.md"
+        }
+      ]
+    },
+    {
+      "id": "spring-boot",
+      "label": "Spring Boot",
+      "notes": [
+        {
+          "id": "00-INDEX-spring-boot-ecosystem",
+          "filename": "00-INDEX-spring-boot-ecosystem.md",
+          "title": "The Spring Boot Ecosystem — Full Reference Series (2026)",
+          "path": "content/spring-boot/00-INDEX-spring-boot-ecosystem.md"
+        },
+        {
+          "id": "01-core-framework",
+          "filename": "01-core-framework.md",
+          "title": "1. Core Framework — Spring Core, IoC/DI, MVC, Auto-configuration",
+          "path": "content/spring-boot/01-core-framework.md"
+        },
+        {
+          "id": "02-data-layer",
+          "filename": "02-data-layer.md",
+          "title": "2. Data Layer — Hibernate, Spring Data JPA, PostgreSQL, HikariCP, Migrations",
+          "path": "content/spring-boot/02-data-layer.md"
+        },
+        {
+          "id": "03-web-and-apis",
+          "filename": "03-web-and-apis.md",
+          "title": "3. Web & APIs — REST, WebFlux, gRPC, OpenAPI, RestClient",
+          "path": "content/spring-boot/03-web-and-apis.md"
+        },
+        {
+          "id": "04-security",
+          "filename": "04-security.md",
+          "title": "4. Security — Spring Security, OAuth 2.1, Keycloak, RBAC/ABAC",
+          "path": "content/spring-boot/04-security.md"
+        },
+        {
+          "id": "05-messaging-and-async",
+          "filename": "05-messaging-and-async.md",
+          "title": "5. Messaging & Async — Kafka, RabbitMQ, Outbox, Saga in Spring Boot",
+          "path": "content/spring-boot/05-messaging-and-async.md"
+        },
+        {
+          "id": "06-caching-and-storage",
+          "filename": "06-caching-and-storage.md",
+          "title": "6. Caching & Storage — Redis, MongoDB, SQS/SNS, Cassandra",
+          "path": "content/spring-boot/06-caching-and-storage.md"
+        },
+        {
+          "id": "07-cloud-and-devops",
+          "filename": "07-cloud-and-devops.md",
+          "title": "7. Cloud & DevOps — Docker, Kubernetes, Spring Cloud, CI/CD, Terraform",
+          "path": "content/spring-boot/07-cloud-and-devops.md"
+        },
+        {
+          "id": "08-monitoring-and-testing",
+          "filename": "08-monitoring-and-testing.md",
+          "title": "8. Monitoring & Testing — Actuator, Prometheus, Grafana, Resilience4j, Observability",
+          "path": "content/spring-boot/08-monitoring-and-testing.md"
+        }
+      ]
+    }
+  ]
+}
