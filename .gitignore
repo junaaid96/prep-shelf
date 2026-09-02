@@ -45,3 +45,6 @@ build/
 # Local server / temp
 *.tmp
 *.temp
+
+# temp preview archive (safe to delete)
+_prepshelf_preview.tgz

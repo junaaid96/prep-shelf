@@ -1,113 +1,3331 @@
 {
-  "generatedAt": "2026-08-03T20:00:33.342Z",
+  "generatedAt": "2026-09-02T01:20:26.747Z",
   "siteName": "PrepShelf",
-  "tagline": "Your prep notes, organized by topic",
+  "tagline": "Engineering notes, organised by topic",
+  "totals": {
+    "topics": 12,
+    "notes": 52,
+    "words": 65774,
+    "readingMinutes": 562
+  },
   "topics": [
+    {
+      "id": "software-engineering",
+      "label": "Software Engineering",
+      "icon": "🧭",
+      "blurb": "Clean code, SOLID, design patterns, testing, review and workflow.",
+      "count": 4,
+      "readingMinutes": 41,
+      "notes": [
+        {
+          "id": "01-clean-code-and-refactoring",
+          "filename": "01-clean-code-and-refactoring.md",
+          "title": "1. Clean Code & Refactoring",
+          "description": "Code is read far more often than it is written. Every rule here exists to reduce the time it takes the next person — usually you, in six months — to understand and safely change it.",
+          "words": 1263,
+          "codeLines": 61,
+          "readingMinutes": 9,
+          "headings": [
+            {
+              "level": 2,
+              "text": "1.1 Naming"
+            },
+            {
+              "level": 2,
+              "text": "1.2 Functions"
+            },
+            {
+              "level": 2,
+              "text": "1.3 Comments"
+            },
+            {
+              "level": 2,
+              "text": "1.4 Code smells worth naming"
+            },
+            {
+              "level": 2,
+              "text": "1.5 Refactoring safely"
+            },
+            {
+              "level": 2,
+              "text": "1.6 Error handling"
+            },
+            {
+              "level": 2,
+              "text": "1.7 Technical debt"
+            },
+            {
+              "level": 2,
+              "text": "1.8 Rapid-fire answers"
+            }
+          ],
+          "path": "content/software-engineering/01-clean-code-and-refactoring.md"
+        },
+        {
+          "id": "02-oop-solid-and-design-patterns",
+          "filename": "02-oop-solid-and-design-patterns.md",
+          "title": "2. OOP, SOLID & Design Patterns",
+          "description": "// ✗ Anaemic model — a bag of data with a service doing all the thinking",
+          "words": 858,
+          "codeLines": 170,
+          "readingMinutes": 12,
+          "headings": [
+            {
+              "level": 2,
+              "text": "2.1 The four pillars, and what they're actually for"
+            },
+            {
+              "level": 2,
+              "text": "2.2 SOLID, with the failure each principle prevents"
+            },
+            {
+              "level": 2,
+              "text": "2.3 Creational patterns"
+            },
+            {
+              "level": 2,
+              "text": "2.4 Structural patterns"
+            },
+            {
+              "level": 2,
+              "text": "2.5 Behavioural patterns"
+            },
+            {
+              "level": 2,
+              "text": "2.6 Concurrency in application code"
+            },
+            {
+              "level": 2,
+              "text": "2.7 Rapid-fire answers"
+            }
+          ],
+          "path": "content/software-engineering/02-oop-solid-and-design-patterns.md"
+        },
+        {
+          "id": "03-testing-strategy",
+          "filename": "03-testing-strategy.md",
+          "title": "3. Testing Strategy",
+          "description": "The classic pyramid still holds, but the modern version emphasises integration tests with real dependencies (Testcontainers made them fast enough) over heavily-mocked unit tests.",
+          "words": 1272,
+          "codeLines": 71,
+          "readingMinutes": 10,
+          "headings": [
+            {
+              "level": 2,
+              "text": "3.1 The shape of a test suite"
+            },
+            {
+              "level": 2,
+              "text": "3.2 What makes a good test"
+            },
+            {
+              "level": 2,
+              "text": "3.3 Test doubles — and mocking less"
+            },
+            {
+              "level": 2,
+              "text": "3.4 Integration tests with real dependencies"
+            },
+            {
+              "level": 2,
+              "text": "3.5 TDD, and when it earns its keep"
+            },
+            {
+              "level": 2,
+              "text": "3.6 Coverage, mutation testing, and property-based testing"
+            },
+            {
+              "level": 2,
+              "text": "3.7 Testing the hard parts"
+            },
+            {
+              "level": 2,
+              "text": "3.8 Rapid-fire answers"
+            }
+          ],
+          "path": "content/software-engineering/03-testing-strategy.md"
+        },
+        {
+          "id": "04-engineering-workflow-and-code-review",
+          "filename": "04-engineering-workflow-and-code-review.md",
+          "title": "4. Engineering Workflow, Code Review & Working in the AI Era",
+          "description": "What review is for: catching defects, spreading knowledge, keeping the codebase coherent, and giving the author a second brain. It is not for demonstrating seniority.",
+          "words": 1670,
+          "codeLines": 31,
+          "readingMinutes": 10,
+          "headings": [
+            {
+              "level": 2,
+              "text": "4.1 Code review that improves code and people"
+            },
+            {
+              "level": 2,
+              "text": "4.2 Documentation that survives"
+            },
+            {
+              "level": 2,
+              "text": "4.3 Estimation and planning"
+            },
+            {
+              "level": 2,
+              "text": "4.4 Working with AI coding tools (2026 reality)"
+            },
+            {
+              "level": 2,
+              "text": "4.5 Debugging methodically"
+            },
+            {
+              "level": 2,
+              "text": "4.6 Growing as an engineer"
+            },
+            {
+              "level": 2,
+              "text": "4.7 Rapid-fire answers"
+            }
+          ],
+          "path": "content/software-engineering/04-engineering-workflow-and-code-review.md"
+        }
+      ]
+    },
+    {
+      "id": "languages",
+      "label": "Languages",
+      "icon": "🔤",
+      "blurb": "Python, JavaScript, TypeScript, Java, C, C++ and Rust in depth.",
+      "count": 7,
+      "readingMinutes": 77,
+      "notes": [
+        {
+          "id": "01-python",
+          "filename": "01-python.md",
+          "title": "Python — Deep Dive & Interview Reference (2026)",
+          "description": "Current state (Sept 2026): Python 3.14 is the newest stable line (3.14.7), released Oct 2025. It is the first release where the free-threaded build ( , no GIL) is officially supported rather than experimental, and it…",
+          "words": 979,
+          "codeLines": 146,
+          "readingMinutes": 12,
+          "headings": [
+            {
+              "level": 2,
+              "text": "1. The data model — why methods are the whole language"
+            },
+            {
+              "level": 2,
+              "text": "2. Mutability, identity, and the default-argument trap"
+            },
+            {
+              "level": 2,
+              "text": "3. Iterators, generators, and laziness"
+            },
+            {
+              "level": 2,
+              "text": "4. Decorators, closures, and"
+            },
+            {
+              "level": 2,
+              "text": "5. Concurrency: threads, processes, asyncio, and the 3.14 free-threaded build"
+            },
+            {
+              "level": 2,
+              "text": "6. Typing that earns its keep"
+            },
+            {
+              "level": 2,
+              "text": "7. Errors, context managers, and resource safety"
+            },
+            {
+              "level": 2,
+              "text": "8. Performance you can actually measure"
+            },
+            {
+              "level": 2,
+              "text": "9. Rapid-fire answers"
+            }
+          ],
+          "path": "content/languages/01-python.md"
+        },
+        {
+          "id": "02-javascript",
+          "filename": "02-javascript.md",
+          "title": "JavaScript — Deep Dive & Interview Reference (2026)",
+          "description": "Current state (Sept 2026): Node.js 24 LTS and 26 (the incoming LTS) are the production targets; Node 22 is in maintenance. The language spec is ES2025/ES2026 — , , , top-level , and native ESM are all baseline. Bun an…",
+          "words": 933,
+          "codeLines": 154,
+          "readingMinutes": 12,
+          "headings": [
+            {
+              "level": 2,
+              "text": "1. The engine model: call stack, event loop, microtasks"
+            },
+            {
+              "level": 2,
+              "text": "2. , closures, and scope"
+            },
+            {
+              "level": 2,
+              "text": "3. Prototypes and classes"
+            },
+            {
+              "level": 2,
+              "text": "4. Async: promises, async/await, cancellation"
+            },
+            {
+              "level": 2,
+              "text": "5. Equality, coercion, and the parts that bite"
+            },
+            {
+              "level": 2,
+              "text": "6. Modules, bundling, and the CJS/ESM split"
+            },
+            {
+              "level": 2,
+              "text": "7. Memory and leaks in long-running Node services"
+            },
+            {
+              "level": 2,
+              "text": "8. Node backend patterns worth knowing"
+            },
+            {
+              "level": 2,
+              "text": "9. Rapid-fire answers"
+            }
+          ],
+          "path": "content/languages/02-javascript.md"
+        },
+        {
+          "id": "03-typescript",
+          "filename": "03-typescript.md",
+          "title": "TypeScript — Deep Dive & Interview Reference (2026)",
+          "description": "Current state (Sept 2026): TypeScript 7.0 shipped in July 2026 — the compiler was rewritten natively in Go ( ), giving roughly 10× faster type-checking and project loads . The language semantics are unchanged; what ch…",
+          "words": 765,
+          "codeLines": 147,
+          "readingMinutes": 11,
+          "headings": [
+            {
+              "level": 2,
+              "text": "1. The mental model: types are erased, structure is what matters"
+            },
+            {
+              "level": 2,
+              "text": "2. , , — the three you must get right"
+            },
+            {
+              "level": 2,
+              "text": "3. Narrowing and type guards"
+            },
+            {
+              "level": 2,
+              "text": "4. Generics that carry real constraints"
+            },
+            {
+              "level": 2,
+              "text": "5. Runtime validation at the boundary"
+            },
+            {
+              "level": 2,
+              "text": "6. that a senior would sign off"
+            },
+            {
+              "level": 2,
+              "text": "7. Declaration merging, modules, and ambient types"
+            },
+            {
+              "level": 2,
+              "text": "8. Performance of the type system itself"
+            },
+            {
+              "level": 2,
+              "text": "9. Rapid-fire answers"
+            }
+          ],
+          "path": "content/languages/03-typescript.md"
+        },
+        {
+          "id": "04-java",
+          "filename": "04-java.md",
+          "title": "Java — Deep Dive & Interview Reference (2026)",
+          "description": "Current state (Sept 2026): Java 25 (LTS, Sept 2025) is the target for new production work; Java 26 (Mar 2026) is the current non-LTS feature release and Java 27 (LTS) lands this month. Java 21 remains widely deployed.…",
+          "words": 1101,
+          "codeLines": 110,
+          "readingMinutes": 11,
+          "headings": [
+            {
+              "level": 2,
+              "text": "1. Memory model: stack, heap, and what \"pass by value\" really means"
+            },
+            {
+              "level": 2,
+              "text": "2. / , and why breaks without them"
+            },
+            {
+              "level": 2,
+              "text": "3. Collections — choosing correctly"
+            },
+            {
+              "level": 2,
+              "text": "4. Concurrency: from to virtual threads"
+            },
+            {
+              "level": 2,
+              "text": "5. Streams and functional style"
+            },
+            {
+              "level": 2,
+              "text": "6. Modern language features you're expected to use (21–26)"
+            },
+            {
+              "level": 2,
+              "text": "7. Exceptions and API design"
+            },
+            {
+              "level": 2,
+              "text": "8. JVM performance and troubleshooting"
+            },
+            {
+              "level": 2,
+              "text": "9. Rapid-fire answers"
+            }
+          ],
+          "path": "content/languages/04-java.md"
+        },
+        {
+          "id": "05-c",
+          "filename": "05-c.md",
+          "title": "C — Deep Dive & Interview Reference (2026)",
+          "description": "Current state (Sept 2026): C23 (ISO/IEC 9899:2024) is the current standard — , , , , , binary literals, . GCC 15/Clang 20 support most of it ( ). C remains the language of kernels, embedded firmware, runtimes, and eve…",
+          "words": 824,
+          "codeLines": 124,
+          "readingMinutes": 10,
+          "headings": [
+            {
+              "level": 2,
+              "text": "1. Memory layout — the diagram you must be able to draw"
+            },
+            {
+              "level": 2,
+              "text": "2. Pointers, arrays, and decay"
+            },
+            {
+              "level": 2,
+              "text": "3. Dynamic memory: the five bugs everyone writes once"
+            },
+            {
+              "level": 2,
+              "text": "4. Undefined behaviour — the thing that makes C hard"
+            },
+            {
+              "level": 2,
+              "text": "5. Strings and safe buffer handling"
+            },
+            {
+              "level": 2,
+              "text": "6. Structs, alignment, and padding"
+            },
+            {
+              "level": 2,
+              "text": "7. Compilation model and the preprocessor"
+            },
+            {
+              "level": 2,
+              "text": "8. A worked example: a growable dynamic array"
+            },
+            {
+              "level": 2,
+              "text": "9. Rapid-fire answers"
+            }
+          ],
+          "path": "content/languages/05-c.md"
+        },
+        {
+          "id": "06-cpp",
+          "filename": "06-cpp.md",
+          "title": "C++ — Deep Dive & Interview Reference (2026)",
+          "description": "Current state (Sept 2026): C++26 was finalised in March 2026 — the headline features are static reflection , contracts , the (senders/receivers) async model , hardened standard-library preconditions, and everywhere im…",
+          "words": 1081,
+          "codeLines": 105,
+          "readingMinutes": 10,
+          "headings": [
+            {
+              "level": 2,
+              "text": "1. RAII — the organising idea of the language"
+            },
+            {
+              "level": 2,
+              "text": "2. Smart pointers and ownership"
+            },
+            {
+              "level": 2,
+              "text": "3. Move semantics, value categories, and perfect forwarding"
+            },
+            {
+              "level": 2,
+              "text": "4. Containers, iterators, and complexity"
+            },
+            {
+              "level": 2,
+              "text": "5. Templates, concepts, and compile-time work"
+            },
+            {
+              "level": 2,
+              "text": "6. Error handling: exceptions, , and contracts"
+            },
+            {
+              "level": 2,
+              "text": "7. Concurrency"
+            },
+            {
+              "level": 2,
+              "text": "8. Performance: what actually makes C++ fast"
+            },
+            {
+              "level": 2,
+              "text": "9. Rapid-fire answers"
+            }
+          ],
+          "path": "content/languages/06-cpp.md"
+        },
+        {
+          "id": "07-rust",
+          "filename": "07-rust.md",
+          "title": "Rust — Deep Dive & Interview Reference (2026)",
+          "description": "Current state (Sept 2026): Rust 1.98 is the latest stable (six-week cadence). Edition 2024 is the default for new crates — blocks, stricter in , RPIT lifetime capture changes, and for . Async traits (AFIT) are stable,…",
+          "words": 1119,
+          "codeLines": 129,
+          "readingMinutes": 11,
+          "headings": [
+            {
+              "level": 2,
+              "text": "1. Ownership — the one idea everything else follows from"
+            },
+            {
+              "level": 2,
+              "text": "2. Lifetimes — naming how long a reference is valid"
+            },
+            {
+              "level": 2,
+              "text": "3. Error handling: , , and custom errors"
+            },
+            {
+              "level": 2,
+              "text": "4. Traits, generics, and dispatch"
+            },
+            {
+              "level": 2,
+              "text": "5. Smart pointers and interior mutability"
+            },
+            {
+              "level": 2,
+              "text": "6. Iterators, closures, and zero-cost abstraction"
+            },
+            {
+              "level": 2,
+              "text": "7. Async Rust"
+            },
+            {
+              "level": 2,
+              "text": "8. , FFI, and when to reach for it"
+            },
+            {
+              "level": 2,
+              "text": "9. Tooling and project hygiene"
+            },
+            {
+              "level": 2,
+              "text": "10. Rapid-fire answers"
+            }
+          ],
+          "path": "content/languages/07-rust.md"
+        }
+      ]
+    },
+    {
+      "id": "dsa",
+      "label": "DSA",
+      "icon": "🧩",
+      "blurb": "Complexity, data structures, problem patterns, graphs and DP.",
+      "count": 3,
+      "readingMinutes": 40,
+      "notes": [
+        {
+          "id": "01-complexity-and-core-structures",
+          "filename": "01-complexity-and-core-structures.md",
+          "title": "1. Complexity & Core Data Structures",
+          "description": "Big-O describes how runtime grows with input size, ignoring constants. It's a tool for choosing between approaches — not a substitute for measuring.",
+          "words": 1278,
+          "codeLines": 150,
+          "readingMinutes": 13,
+          "headings": [
+            {
+              "level": 2,
+              "text": "1.1 Big-O, honestly"
+            },
+            {
+              "level": 2,
+              "text": "1.2 Arrays and dynamic arrays"
+            },
+            {
+              "level": 2,
+              "text": "1.3 Hash tables"
+            },
+            {
+              "level": 2,
+              "text": "1.4 Linked lists"
+            },
+            {
+              "level": 2,
+              "text": "1.5 Stacks and queues"
+            },
+            {
+              "level": 2,
+              "text": "1.6 Heaps / priority queues"
+            },
+            {
+              "level": 2,
+              "text": "1.7 Trees"
+            },
+            {
+              "level": 2,
+              "text": "1.8 Union-Find (Disjoint Set Union)"
+            },
+            {
+              "level": 2,
+              "text": "1.9 Sorting"
+            },
+            {
+              "level": 2,
+              "text": "1.10 Rapid-fire answers"
+            }
+          ],
+          "path": "content/dsa/01-complexity-and-core-structures.md"
+        },
+        {
+          "id": "02-patterns-and-problem-solving",
+          "filename": "02-patterns-and-problem-solving.md",
+          "title": "2. Problem-Solving Patterns — The 12 That Cover Most Interviews",
+          "description": "Almost every array/string interview question is one of a dozen patterns. Recognising the pattern in the first two minutes is the skill being tested.",
+          "words": 681,
+          "codeLines": 209,
+          "readingMinutes": 13,
+          "headings": [
+            {
+              "level": 2,
+              "text": "2.1 Two pointers"
+            },
+            {
+              "level": 2,
+              "text": "2.2 Sliding window"
+            },
+            {
+              "level": 2,
+              "text": "2.3 Binary search (including on the answer)"
+            },
+            {
+              "level": 2,
+              "text": "2.4 Fast & slow pointers (Floyd)"
+            },
+            {
+              "level": 2,
+              "text": "2.5 Intervals"
+            },
+            {
+              "level": 2,
+              "text": "2.6 Backtracking"
+            },
+            {
+              "level": 2,
+              "text": "2.7 Top-K / heap"
+            },
+            {
+              "level": 2,
+              "text": "2.8 Cyclic sort & index-as-hash"
+            },
+            {
+              "level": 2,
+              "text": "2.9 Prefix sum & hash map"
+            },
+            {
+              "level": 2,
+              "text": "2.10 Monotonic stack"
+            },
+            {
+              "level": 2,
+              "text": "2.11 Merge intervals / k-way merge / two heaps"
+            },
+            {
+              "level": 2,
+              "text": "2.12 Bit manipulation"
+            },
+            {
+              "level": 2,
+              "text": "2.13 How to attack an unseen problem (say this out loud)"
+            }
+          ],
+          "path": "content/dsa/02-patterns-and-problem-solving.md"
+        },
+        {
+          "id": "03-graphs-trees-and-dp",
+          "filename": "03-graphs-trees-and-dp.md",
+          "title": "3. Graphs, Trees & Dynamic Programming",
+          "description": "graph = {0: [1, 2], 1: [2], 2: [0, 3], 3: []}",
+          "words": 993,
+          "codeLines": 189,
+          "readingMinutes": 14,
+          "headings": [
+            {
+              "level": 2,
+              "text": "3.1 Graph representations"
+            },
+            {
+              "level": 2,
+              "text": "3.2 BFS and DFS"
+            },
+            {
+              "level": 2,
+              "text": "3.3 Topological sort"
+            },
+            {
+              "level": 2,
+              "text": "3.4 Shortest paths"
+            },
+            {
+              "level": 2,
+              "text": "3.5 Tree problems: the recursive shape"
+            },
+            {
+              "level": 2,
+              "text": "3.6 Dynamic programming"
+            },
+            {
+              "level": 2,
+              "text": "3.7 Greedy — and how to tell it's safe"
+            },
+            {
+              "level": 2,
+              "text": "3.8 Rapid-fire answers"
+            }
+          ],
+          "path": "content/dsa/03-graphs-trees-and-dp.md"
+        }
+      ]
+    },
+    {
+      "id": "frontend",
+      "label": "Frontend",
+      "icon": "🎨",
+      "blurb": "Browser fundamentals, React, state, performance and tooling.",
+      "count": 4,
+      "readingMinutes": 39,
+      "notes": [
+        {
+          "id": "01-web-platform-fundamentals",
+          "filename": "01-web-platform-fundamentals.md",
+          "title": "1. Web Platform Fundamentals — Browser, HTTP, CSS, Accessibility",
+          "description": "Framework questions come and go; these are the ones that separate someone who uses React from someone who understands what the browser is doing underneath. Every senior frontend interview goes here.",
+          "words": 1147,
+          "codeLines": 42,
+          "readingMinutes": 8,
+          "headings": [
+            {
+              "level": 2,
+              "text": "1.1 The critical rendering path"
+            },
+            {
+              "level": 2,
+              "text": "1.2 Core Web Vitals (the 2026 set)"
+            },
+            {
+              "level": 2,
+              "text": "1.3 HTTP, caching, and the network tab"
+            },
+            {
+              "level": 2,
+              "text": "1.4 Storage and cookies"
+            },
+            {
+              "level": 2,
+              "text": "1.5 CSS that scales"
+            },
+            {
+              "level": 2,
+              "text": "1.6 Accessibility (a11y) — the part that's actually testable"
+            },
+            {
+              "level": 2,
+              "text": "1.7 Security on the client"
+            },
+            {
+              "level": 2,
+              "text": "1.8 Rapid-fire answers"
+            }
+          ],
+          "path": "content/frontend/01-web-platform-fundamentals.md"
+        },
+        {
+          "id": "02-react-core",
+          "filename": "02-react-core.md",
+          "title": "2. React Core — Hooks, Rendering, and the 2026 Mental Model",
+          "description": "Current state (Sept 2026): React 19.2.x is the stable line. React 19 brought the React Compiler (auto-memoisation), Actions + / / , , ref-as-a-prop (no more ), Document Metadata, and stable Server Components. React 18…",
+          "words": 1186,
+          "codeLines": 128,
+          "readingMinutes": 12,
+          "headings": [
+            {
+              "level": 2,
+              "text": "2.1 The core loop: render → reconcile → commit"
+            },
+            {
+              "level": 2,
+              "text": "2.2 State: the rules that prevent 80% of bugs"
+            },
+            {
+              "level": 2,
+              "text": "2.3 — and the many cases where you shouldn't use it"
+            },
+            {
+              "level": 2,
+              "text": "2.4 The full hook set, with the real use case"
+            },
+            {
+              "level": 2,
+              "text": "2.5 React 19 features you're expected to know"
+            },
+            {
+              "level": 2,
+              "text": "2.6 Server Components vs Client Components"
+            },
+            {
+              "level": 2,
+              "text": "2.7 Error and loading boundaries"
+            },
+            {
+              "level": 2,
+              "text": "2.8 Rapid-fire answers"
+            }
+          ],
+          "path": "content/frontend/02-react-core.md"
+        },
+        {
+          "id": "03-react-performance-and-patterns",
+          "filename": "03-react-performance-and-patterns.md",
+          "title": "3. React Performance & Component Patterns",
+          "description": "Performance work in React is 90% \"stop doing unnecessary work\" and 10% clever tricks. This note covers how to find the waste, the patterns that prevent it structurally, and what the React Compiler changes.",
+          "words": 954,
+          "codeLines": 113,
+          "readingMinutes": 10,
+          "headings": [
+            {
+              "level": 2,
+              "text": "3.1 Measure first"
+            },
+            {
+              "level": 2,
+              "text": "3.2 The React Compiler changes the default"
+            },
+            {
+              "level": 2,
+              "text": "3.3 Manual memoisation, done right"
+            },
+            {
+              "level": 2,
+              "text": "3.4 Rendering large lists"
+            },
+            {
+              "level": 2,
+              "text": "3.5 Bundle size and code splitting"
+            },
+            {
+              "level": 2,
+              "text": "3.6 Component patterns that scale"
+            },
+            {
+              "level": 2,
+              "text": "3.7 Forms"
+            },
+            {
+              "level": 2,
+              "text": "3.8 Anti-patterns checklist"
+            }
+          ],
+          "path": "content/frontend/03-react-performance-and-patterns.md"
+        },
+        {
+          "id": "04-state-data-and-tooling",
+          "filename": "04-state-data-and-tooling.md",
+          "title": "4. Frontend State, Data Fetching, Tooling & Testing",
+          "description": "Most \"which state library?\" debates dissolve once you separate the kinds:",
+          "words": 955,
+          "codeLines": 85,
+          "readingMinutes": 9,
+          "headings": [
+            {
+              "level": 2,
+              "text": "4.1 Classify your state before choosing a tool"
+            },
+            {
+              "level": 2,
+              "text": "4.2 Server state with TanStack Query"
+            },
+            {
+              "level": 2,
+              "text": "4.3 Client state stores"
+            },
+            {
+              "level": 2,
+              "text": "4.4 Rendering strategies"
+            },
+            {
+              "level": 2,
+              "text": "4.5 Build tooling in 2026"
+            },
+            {
+              "level": 2,
+              "text": "4.6 Testing"
+            },
+            {
+              "level": 2,
+              "text": "4.7 Rapid-fire answers"
+            }
+          ],
+          "path": "content/frontend/04-state-data-and-tooling.md"
+        }
+      ]
+    },
     {
       "id": "backend",
       "label": "Backend",
+      "icon": "⚙️",
+      "blurb": "Architecture and optimisation patterns for backend systems.",
+      "count": 2,
+      "readingMinutes": 27,
       "notes": [
         {
           "id": "7-backend-architecture-patterns",
           "filename": "7-backend-architecture-patterns.md",
           "title": "7 Backend Architecture Patterns — Deep Dive Guide",
+          "description": "Every real production system (Amazon, Uber, your eG-Health microservices stack) is a combination of these patterns — never just one. This guide explains each in depth: how it works, when to use it, trade-offs, and how…",
+          "words": 2588,
+          "codeLines": 46,
+          "readingMinutes": 15,
+          "headings": [
+            {
+              "level": 2,
+              "text": "1. Request/Response (Synchronous API Calls)"
+            },
+            {
+              "level": 2,
+              "text": "2. Event-Driven (Asynchronous Decoupling)"
+            },
+            {
+              "level": 2,
+              "text": "3. Cache-Aside (Speed & Load Reduction)"
+            },
+            {
+              "level": 2,
+              "text": "4. CQRS Pattern (Command Query Responsibility Segregation)"
+            },
+            {
+              "level": 2,
+              "text": "5. Strangler Fig (Modernizing Legacy Systems)"
+            },
+            {
+              "level": 2,
+              "text": "6. Saga Pattern (Distributed Transactions)"
+            },
+            {
+              "level": 2,
+              "text": "7. Database Per Service (Independent Data Ownership)"
+            },
+            {
+              "level": 2,
+              "text": "How These Patterns Combine"
+            },
+            {
+              "level": 2,
+              "text": "Suggested Learning Path (Connected Topics)"
+            }
+          ],
           "path": "content/backend/7-backend-architecture-patterns.md"
         },
         {
           "id": "backend-optimization-patterns-guide",
           "filename": "backend-optimization-patterns-guide.md",
           "title": "Advanced Backend Optimization Patterns — Deep Dive",
+          "description": "A study guide covering 7 production patterns for high availability, performance, and data management — with real tools, code-level implementation notes, and how each connects to topics you're already studying (caching…",
+          "words": 2209,
+          "codeLines": 16,
+          "readingMinutes": 12,
+          "headings": [
+            {
+              "level": 2,
+              "text": "1. Failover Pattern"
+            },
+            {
+              "level": 3,
+              "text": "How it works"
+            },
+            {
+              "level": 3,
+              "text": "Two flavors"
+            },
+            {
+              "level": 3,
+              "text": "Real tools"
+            },
+            {
+              "level": 3,
+              "text": "In your Spring Boot stack"
+            },
+            {
+              "level": 3,
+              "text": "Connected topics to study next"
+            },
+            {
+              "level": 2,
+              "text": "2. Consistent Hashing"
+            },
+            {
+              "level": 3,
+              "text": "How it works"
+            },
+            {
+              "level": 3,
+              "text": "Real uses"
+            },
+            {
+              "level": 3,
+              "text": "Connected topics"
+            },
+            {
+              "level": 2,
+              "text": "3. Aggregator Pattern"
+            },
+            {
+              "level": 3,
+              "text": "Flow"
+            },
+            {
+              "level": 3,
+              "text": "Why it matters"
+            },
+            {
+              "level": 3,
+              "text": "In Spring Boot"
+            },
+            {
+              "level": 3,
+              "text": "Connected topics"
+            },
+            {
+              "level": 2,
+              "text": "4. Blue-Green Deployment"
+            },
+            {
+              "level": 3,
+              "text": "Flow"
+            },
+            {
+              "level": 3,
+              "text": "Why it's the \"industry standard\""
+            },
+            {
+              "level": 3,
+              "text": "Compare with other deployment strategies (important — interviewers love this comparison)"
+            },
+            {
+              "level": 3,
+              "text": "Real tools"
+            },
+            {
+              "level": 3,
+              "text": "Connected topics"
+            },
+            {
+              "level": 2,
+              "text": "5. Soft Delete"
+            },
+            {
+              "level": 3,
+              "text": "Flow"
+            },
+            {
+              "level": 3,
+              "text": "In Spring Boot + Hibernate — this is directly usable in your eG-Health / Popular Diagnostic work"
+            },
+            {
+              "level": 3,
+              "text": "Important gotcha"
+            },
+            {
+              "level": 3,
+              "text": "Connected topics"
+            },
+            {
+              "level": 2,
+              "text": "6. Distributed Cache"
+            },
+            {
+              "level": 3,
+              "text": "Flow"
+            },
+            {
+              "level": 3,
+              "text": "The 3 caching patterns (know these cold — very common interview question)"
+            },
+            {
+              "level": 3,
+              "text": "Eviction policies (relevant to your caching study)"
+            },
+            {
+              "level": 3,
+              "text": "In Spring Boot"
+            },
+            {
+              "level": 3,
+              "text": "Connected topics — genuinely important gotchas"
+            },
+            {
+              "level": 2,
+              "text": "7. Anti-Corruption Layer (ACL)"
+            },
+            {
+              "level": 3,
+              "text": "Flow"
+            },
+            {
+              "level": 3,
+              "text": "Why it matters for your work specifically"
+            },
+            {
+              "level": 3,
+              "text": "Benefits"
+            },
+            {
+              "level": 3,
+              "text": "Connected topics"
+            },
+            {
+              "level": 2,
+              "text": "How These 7 Patterns Connect"
+            },
+            {
+              "level": 2,
+              "text": "Suggested Next Topics (natural extensions, fits your current GfG checklist)"
+            }
+          ],
           "path": "content/backend/backend-optimization-patterns-guide.md"
-        }
-      ]
-    },
-    {
-      "id": "interview-mcq",
-      "label": "Interview MCQ",
-      "notes": [
-        {
-          "id": "01-Programming",
-          "filename": "01-Programming.md",
-          "title": "📘 Programming — MCQ Test Preparation Guide",
-          "path": "content/interview-mcq/01-Programming.md"
-        },
-        {
-          "id": "02-Data-Structures-Algorithms",
-          "filename": "02-Data-Structures-Algorithms.md",
-          "title": "📗 Data Structures & Algorithms — MCQ Test Preparation Guide",
-          "path": "content/interview-mcq/02-Data-Structures-Algorithms.md"
-        },
-        {
-          "id": "03-CS-Fundamentals",
-          "filename": "03-CS-Fundamentals.md",
-          "title": "📙 CS Fundamentals — MCQ Test Preparation Guide",
-          "path": "content/interview-mcq/03-CS-Fundamentals.md"
-        },
-        {
-          "id": "04-Logical-Reasoning",
-          "filename": "04-Logical-Reasoning.md",
-          "title": "📕 Logical Reasoning — MCQ Test Preparation Guide",
-          "path": "content/interview-mcq/04-Logical-Reasoning.md"
         }
       ]
     },
     {
       "id": "spring-boot",
       "label": "Spring Boot",
+      "icon": "🍃",
+      "blurb": "The full Spring Boot ecosystem, module by module.",
+      "count": 9,
+      "readingMinutes": 59,
       "notes": [
         {
           "id": "00-INDEX-spring-boot-ecosystem",
           "filename": "00-INDEX-spring-boot-ecosystem.md",
           "title": "The Spring Boot Ecosystem — Full Reference Series (2026)",
+          "description": "Based on the \"iceberg\" post: Spring Boot looks like + + , but production systems run on 8 layers underneath. This series covers every layer with explanations, runnable-style examples, and what's actually current in mi…",
+          "words": 655,
+          "codeLines": 0,
+          "readingMinutes": 3,
+          "headings": [
+            {
+              "level": 2,
+              "text": "How to use this series"
+            },
+            {
+              "level": 2,
+              "text": "Where this series fits your current stack"
+            },
+            {
+              "level": 2,
+              "text": "The single biggest thing that changed in 2026: Spring Boot 4 / Spring Framework 7"
+            },
+            {
+              "level": 2,
+              "text": "Suggested reading order given where you are"
+            }
+          ],
           "path": "content/spring-boot/00-INDEX-spring-boot-ecosystem.md"
         },
         {
           "id": "01-core-framework",
           "filename": "01-core-framework.md",
           "title": "1. Core Framework — Spring Core, IoC/DI, MVC, Auto-configuration",
+          "description": "This is the layer everyone touches without thinking about it. , , all sit on top of these mechanisms.",
+          "words": 913,
+          "codeLines": 72,
+          "readingMinutes": 8,
+          "headings": [
+            {
+              "level": 2,
+              "text": "1.1 IoC (Inversion of Control) & Dependency Injection"
+            },
+            {
+              "level": 2,
+              "text": "1.2 Bean Lifecycle"
+            },
+            {
+              "level": 2,
+              "text": "1.3 ApplicationContext, Component Scanning, Stereotypes"
+            },
+            {
+              "level": 2,
+              "text": "1.4 ApplicationEvent — decoupled communication inside one JVM"
+            },
+            {
+              "level": 2,
+              "text": "1.5 Auto-configuration — the \"magic\""
+            },
+            {
+              "level": 2,
+              "text": "1.6 Java baseline: Java 21 vs Java 25 LTS"
+            },
+            {
+              "level": 3,
+              "text": "Virtual Threads (Project Loom) — directly relevant to your Java/Spring Boot stack"
+            },
+            {
+              "level": 2,
+              "text": "Go Deeper"
+            }
+          ],
           "path": "content/spring-boot/01-core-framework.md"
         },
         {
           "id": "02-data-layer",
           "filename": "02-data-layer.md",
           "title": "2. Data Layer — Hibernate, Spring Data JPA, PostgreSQL, HikariCP, Migrations",
+          "description": "Hibernate is the ORM implementation; Spring Data JPA is a layer on top that eliminates boilerplate DAO code by generating implementations from interface method names or annotations.",
+          "words": 529,
+          "codeLines": 58,
+          "readingMinutes": 5,
+          "headings": [
+            {
+              "level": 2,
+              "text": "2.1 Spring Data JPA + Hibernate ORM"
+            },
+            {
+              "level": 2,
+              "text": "2.2 PostgreSQL + HikariCP"
+            },
+            {
+              "level": 2,
+              "text": "2.3 Database Migrations — Flyway vs Liquibase"
+            },
+            {
+              "level": 2,
+              "text": "2.4 JdbcTemplate — when you skip the ORM entirely"
+            },
+            {
+              "level": 2,
+              "text": "2.5 MongoDB (polyglot persistence) and H2 (testing)"
+            },
+            {
+              "level": 2,
+              "text": "Go Deeper"
+            }
+          ],
           "path": "content/spring-boot/02-data-layer.md"
         },
         {
           "id": "03-web-and-apis",
           "filename": "03-web-and-apis.md",
           "title": "3. Web & APIs — REST, WebFlux, gRPC, OpenAPI, RestClient",
+          "description": "@RestController",
+          "words": 710,
+          "codeLines": 86,
+          "readingMinutes": 7,
+          "headings": [
+            {
+              "level": 2,
+              "text": "3.1 REST APIs and API Versioning (new, first-class in Spring Framework 7)"
+            },
+            {
+              "level": 2,
+              "text": "3.2 Jackson — and the Jackson 3 migration"
+            },
+            {
+              "level": 2,
+              "text": "3.3 WebFlux — the reactive alternative to Spring MVC"
+            },
+            {
+              "level": 2,
+              "text": "3.4 RestClient — replacing RestTemplate"
+            },
+            {
+              "level": 2,
+              "text": "3.5 gRPC"
+            },
+            {
+              "level": 2,
+              "text": "3.6 OpenAPI / Swagger"
+            },
+            {
+              "level": 2,
+              "text": "Go Deeper"
+            }
+          ],
           "path": "content/spring-boot/03-web-and-apis.md"
         },
         {
           "id": "04-security",
           "filename": "04-security.md",
           "title": "4. Security — Spring Security, OAuth 2.1, Keycloak, RBAC/ABAC",
+          "description": "You flagged Application Security as one of your two highest-leverage tracks — this file goes a bit deeper than the others accordingly.",
+          "words": 894,
+          "codeLines": 64,
+          "readingMinutes": 7,
+          "headings": [
+            {
+              "level": 2,
+              "text": "4.1 Spring Security — the filter chain mental model"
+            },
+            {
+              "level": 2,
+              "text": "4.2 JWT + OAuth2 Resource Server pattern"
+            },
+            {
+              "level": 2,
+              "text": "4.3 OAuth 2.1 — what actually changed (relevant even though it's \"just\" a draft)"
+            },
+            {
+              "level": 2,
+              "text": "4.4 CSRF — when to enable it and when to disable it"
+            },
+            {
+              "level": 2,
+              "text": "4.5 RBAC vs ABAC"
+            },
+            {
+              "level": 2,
+              "text": "4.6 Keycloak"
+            },
+            {
+              "level": 2,
+              "text": "4.7 Passkeys / WebAuthn — genuinely new in Spring Security 7"
+            },
+            {
+              "level": 2,
+              "text": "4.8 TLS/HTTPS basics you shouldn't skip"
+            },
+            {
+              "level": 2,
+              "text": "Go Deeper"
+            }
+          ],
           "path": "content/spring-boot/04-security.md"
         },
         {
           "id": "05-messaging-and-async",
           "filename": "05-messaging-and-async.md",
           "title": "5. Messaging & Async — Kafka, RabbitMQ, Outbox, Saga in Spring Boot",
+          "description": "You've already gone deep on Outbox, Saga, and idempotency at the architecture-pattern level. This file is deliberately lighter on theory and focused on how those patterns actually get wired up in Spring Boot code , pl…",
+          "words": 819,
+          "codeLines": 85,
+          "readingMinutes": 8,
+          "headings": [
+            {
+              "level": 2,
+              "text": "5.1 Kafka 4.0 — ZooKeeper is gone, not deprecated"
+            },
+            {
+              "level": 2,
+              "text": "5.2 Spring Kafka — basic producer/consumer"
+            },
+            {
+              "level": 2,
+              "text": "5.3 Where Outbox actually lives in this stack"
+            },
+            {
+              "level": 2,
+              "text": "5.4 Where idempotency actually lives"
+            },
+            {
+              "level": 2,
+              "text": "5.5 Saga — orchestration vs choreography, in code terms"
+            },
+            {
+              "level": 2,
+              "text": "5.6 RabbitMQ — when it's the better fit over Kafka"
+            },
+            {
+              "level": 2,
+              "text": "5.7 @Async and @Scheduled — the lightweight, no-broker option"
+            },
+            {
+              "level": 2,
+              "text": "Go Deeper"
+            }
+          ],
           "path": "content/spring-boot/05-messaging-and-async.md"
         },
         {
           "id": "06-caching-and-storage",
           "filename": "06-caching-and-storage.md",
           "title": "6. Caching & Storage — Redis, MongoDB, SQS/SNS, Cassandra",
+          "description": "@Configuration",
+          "words": 736,
+          "codeLines": 36,
+          "readingMinutes": 5,
+          "headings": [
+            {
+              "level": 2,
+              "text": "6.1 Redis + Spring's abstraction"
+            },
+            {
+              "level": 2,
+              "text": "6.2 Cache-aside vs write-through vs write-behind"
+            },
+            {
+              "level": 2,
+              "text": "6.3 Distributed locking with Redis (relevant to your Saga/idempotency work)"
+            },
+            {
+              "level": 2,
+              "text": "6.4 AWS SQS / SNS — the managed alternative to Kafka/RabbitMQ"
+            },
+            {
+              "level": 2,
+              "text": "6.5 MongoDB as a caching/read-model store (ties to CQRS)"
+            },
+            {
+              "level": 2,
+              "text": "6.6 Cassandra — when eventual consistency at massive write scale is the requirement"
+            },
+            {
+              "level": 2,
+              "text": "6.7 Ehcache — the local, no-network alternative to Redis"
+            },
+            {
+              "level": 2,
+              "text": "Go Deeper"
+            }
+          ],
           "path": "content/spring-boot/06-caching-and-storage.md"
         },
         {
           "id": "07-cloud-and-devops",
           "filename": "07-cloud-and-devops.md",
           "title": "7. Cloud & DevOps — Docker, Kubernetes, Spring Cloud, CI/CD, Terraform",
+          "description": "You flagged Cloud Security as one of your two highest-leverage tracks — the Gateway API section below is the biggest concrete 2026 change in this space.",
+          "words": 821,
+          "codeLines": 87,
+          "readingMinutes": 8,
+          "headings": [
+            {
+              "level": 2,
+              "text": "7.1 Docker — packaging a Spring Boot app correctly"
+            },
+            {
+              "level": 2,
+              "text": "7.2 Kubernetes essentials for a Spring Boot service"
+            },
+            {
+              "level": 2,
+              "text": "7.3 Service discovery: you already made the right call"
+            },
+            {
+              "level": 2,
+              "text": "7.4 Spring Cloud Config Server vs Kubernetes ConfigMaps/Secrets"
+            },
+            {
+              "level": 2,
+              "text": "7.5 Ingress → Gateway API: the concrete 2026 migration"
+            },
+            {
+              "level": 2,
+              "text": "7.6 Helm — templating Kubernetes manifests"
+            },
+            {
+              "level": 2,
+              "text": "7.7 CI/CD — the shape of a typical pipeline for this stack"
+            },
+            {
+              "level": 2,
+              "text": "7.8 Terraform — provisioning the infrastructure itself"
+            },
+            {
+              "level": 2,
+              "text": "Go Deeper"
+            }
+          ],
           "path": "content/spring-boot/07-cloud-and-devops.md"
         },
         {
           "id": "08-monitoring-and-testing",
           "filename": "08-monitoring-and-testing.md",
           "title": "8. Monitoring & Testing — Actuator, Prometheus, Grafana, Resilience4j, Observability",
+          "description": "management:",
+          "words": 832,
+          "codeLines": 85,
+          "readingMinutes": 8,
+          "headings": [
+            {
+              "level": 2,
+              "text": "8.1 Spring Boot Actuator — the foundation everything else builds on"
+            },
+            {
+              "level": 2,
+              "text": "8.2 Micrometer + OpenTelemetry — the new default combo"
+            },
+            {
+              "level": 2,
+              "text": "8.3 Prometheus + Grafana — the metrics pipeline"
+            },
+            {
+              "level": 2,
+              "text": "8.4 Distributed tracing — Zipkin vs Jaeger vs OTel Collector"
+            },
+            {
+              "level": 2,
+              "text": "8.5 Resilience4j — and how much of it Spring Boot 4 now absorbs"
+            },
+            {
+              "level": 2,
+              "text": "8.6 Testcontainers — the modern default for integration tests"
+            },
+            {
+              "level": 2,
+              "text": "8.7 Putting it together — the observability story for one request"
+            },
+            {
+              "level": 2,
+              "text": "Go Deeper"
+            }
+          ],
           "path": "content/spring-boot/08-monitoring-and-testing.md"
+        }
+      ]
+    },
+    {
+      "id": "django",
+      "label": "Django",
+      "icon": "🐍",
+      "blurb": "Django core, the ORM, DRF, async, Celery and hardening.",
+      "count": 3,
+      "readingMinutes": 37,
+      "notes": [
+        {
+          "id": "01-django-core-and-orm",
+          "filename": "01-django-core-and-orm.md",
+          "title": "1. Django Core — MVT, ORM, Migrations, Settings",
+          "description": "Current state (Sept 2026): Django 6.1 (Aug 2026) is the newest feature release; 5.2 LTS (supported to April 2028) is the safe production target. Django 6.x supports Python 3.12–3.14, has first-class async views/ORM me…",
+          "words": 882,
+          "codeLines": 192,
+          "readingMinutes": 13,
+          "headings": [
+            {
+              "level": 2,
+              "text": "1.1 MVT and the request lifecycle"
+            },
+            {
+              "level": 2,
+              "text": "1.2 Models: design that ages well"
+            },
+            {
+              "level": 2,
+              "text": "1.3 The ORM: querysets, laziness, and the N+1 problem"
+            },
+            {
+              "level": 2,
+              "text": "1.4 Transactions and concurrency"
+            },
+            {
+              "level": 2,
+              "text": "1.5 Migrations in a real team"
+            },
+            {
+              "level": 2,
+              "text": "1.6 Settings, apps, and project layout"
+            },
+            {
+              "level": 2,
+              "text": "1.7 Signals — use sparingly"
+            },
+            {
+              "level": 2,
+              "text": "1.8 Rapid-fire answers"
+            }
+          ],
+          "path": "content/django/01-django-core-and-orm.md"
+        },
+        {
+          "id": "02-drf-and-api-design",
+          "filename": "02-drf-and-api-design.md",
+          "title": "2. Django REST Framework & API Design",
+          "description": "DRF is still the default way to build APIs on Django. Django Ninja (Pydantic + async + auto OpenAPI) is the fast-growing alternative and is worth knowing by name in interviews.",
+          "words": 954,
+          "codeLines": 171,
+          "readingMinutes": 13,
+          "headings": [
+            {
+              "level": 2,
+              "text": "2.1 The DRF request pipeline"
+            },
+            {
+              "level": 2,
+              "text": "2.2 Serializers: validation is the security boundary"
+            },
+            {
+              "level": 2,
+              "text": "2.3 Views, ViewSets, and query optimisation"
+            },
+            {
+              "level": 2,
+              "text": "2.4 Authentication, permissions, throttling"
+            },
+            {
+              "level": 2,
+              "text": "2.5 REST design principles that come up in interviews"
+            },
+            {
+              "level": 2,
+              "text": "2.6 Caching and conditional requests"
+            },
+            {
+              "level": 2,
+              "text": "2.7 Testing a DRF API"
+            },
+            {
+              "level": 2,
+              "text": "2.8 Rapid-fire answers"
+            }
+          ],
+          "path": "content/django/02-drf-and-api-design.md"
+        },
+        {
+          "id": "03-async-performance-and-security",
+          "filename": "03-async-performance-and-security.md",
+          "title": "3. Django Async, Celery, Performance & Security Hardening",
+          "description": "Django has async views, async middleware, async ORM methods ( , , via ), async signals, and an async-capable ORM connection layer. What it does not have is a fully async database driver path for every backend — so asy…",
+          "words": 1058,
+          "codeLines": 116,
+          "readingMinutes": 11,
+          "headings": [
+            {
+              "level": 2,
+              "text": "3.1 Async Django: what's real in 6.x"
+            },
+            {
+              "level": 2,
+              "text": "3.2 Celery: the production pattern"
+            },
+            {
+              "level": 2,
+              "text": "3.3 Performance playbook"
+            },
+            {
+              "level": 2,
+              "text": "3.4 Security checklist for a Django deployment"
+            },
+            {
+              "level": 2,
+              "text": "3.5 Deployment shape"
+            },
+            {
+              "level": 2,
+              "text": "3.6 Rapid-fire answers"
+            }
+          ],
+          "path": "content/django/03-async-performance-and-security.md"
+        }
+      ]
+    },
+    {
+      "id": "database",
+      "label": "Database",
+      "icon": "🗄️",
+      "blurb": "SQL, indexing, transactions, scaling, NoSQL and caching.",
+      "count": 4,
+      "readingMinutes": 40,
+      "notes": [
+        {
+          "id": "01-sql-and-data-modelling",
+          "filename": "01-sql-and-data-modelling.md",
+          "title": "1. SQL & Data Modelling",
+          "description": "Current state (Sept 2026): PostgreSQL 18 (18.6) is the newest major — async I/O, skip-scan for B-tree indexes, , virtual generated columns, OAuth auth. PostgreSQL remains the default choice for new systems; MySQL 8.4…",
+          "words": 901,
+          "codeLines": 163,
+          "readingMinutes": 12,
+          "headings": [
+            {
+              "level": 2,
+              "text": "1.1 Normalisation — and when to stop"
+            },
+            {
+              "level": 2,
+              "text": "1.2 Keys, types, and constraints"
+            },
+            {
+              "level": 2,
+              "text": "1.3 Joins, precisely"
+            },
+            {
+              "level": 2,
+              "text": "1.4 Aggregation, window functions, and CTEs"
+            },
+            {
+              "level": 2,
+              "text": "1.5 Upserts, batching, and set-based thinking"
+            },
+            {
+              "level": 2,
+              "text": "1.6 Modelling patterns you'll be asked to design"
+            },
+            {
+              "level": 2,
+              "text": "1.7 Rapid-fire answers"
+            }
+          ],
+          "path": "content/database/01-sql-and-data-modelling.md"
+        },
+        {
+          "id": "02-indexing-and-query-performance",
+          "filename": "02-indexing-and-query-performance.md",
+          "title": "2. Indexing & Query Performance",
+          "description": "The highest-leverage database skill: reading a plan, knowing which index fixes it, and knowing when an index is the wrong answer.",
+          "words": 1039,
+          "codeLines": 120,
+          "readingMinutes": 11,
+          "headings": [
+            {
+              "level": 2,
+              "text": "2.1 How a B-tree index actually helps"
+            },
+            {
+              "level": 2,
+              "text": "2.2 Composite indexes and column order"
+            },
+            {
+              "level": 2,
+              "text": "2.3 Reading"
+            },
+            {
+              "level": 2,
+              "text": "2.4 Why your index isn't being used"
+            },
+            {
+              "level": 2,
+              "text": "2.5 Index types beyond B-tree (PostgreSQL)"
+            },
+            {
+              "level": 2,
+              "text": "2.6 Query patterns that scale (and the ones that don't)"
+            },
+            {
+              "level": 2,
+              "text": "2.7 Finding the slow query in production"
+            },
+            {
+              "level": 2,
+              "text": "2.8 A worked optimisation"
+            },
+            {
+              "level": 2,
+              "text": "2.9 Rapid-fire answers"
+            }
+          ],
+          "path": "content/database/02-indexing-and-query-performance.md"
+        },
+        {
+          "id": "03-transactions-and-concurrency",
+          "filename": "03-transactions-and-concurrency.md",
+          "title": "3. Transactions, Isolation & Concurrency Control",
+          "description": "BEGIN;",
+          "words": 1042,
+          "codeLines": 57,
+          "readingMinutes": 8,
+          "headings": [
+            {
+              "level": 2,
+              "text": "3.1 ACID, concretely"
+            },
+            {
+              "level": 2,
+              "text": "3.2 The four anomalies and the isolation levels that prevent them"
+            },
+            {
+              "level": 2,
+              "text": "3.3 MVCC — how PostgreSQL avoids read locks"
+            },
+            {
+              "level": 2,
+              "text": "3.4 Locking: pessimistic vs optimistic"
+            },
+            {
+              "level": 2,
+              "text": "3.5 Retry logic you actually need"
+            },
+            {
+              "level": 2,
+              "text": "3.6 Distributed transactions and their alternatives"
+            },
+            {
+              "level": 2,
+              "text": "3.7 Rapid-fire answers"
+            }
+          ],
+          "path": "content/database/03-transactions-and-concurrency.md"
+        },
+        {
+          "id": "04-scaling-nosql-and-caching",
+          "filename": "04-scaling-nosql-and-caching.md",
+          "title": "4. Scaling, Replication, Sharding, NoSQL & Caching",
+          "description": "1. Fix the queries. Indexes and N+1 fixes routinely give 10–100×. Cheaper and safer than any infrastructure change.",
+          "words": 1495,
+          "codeLines": 43,
+          "readingMinutes": 9,
+          "headings": [
+            {
+              "level": 2,
+              "text": "4.1 The scaling ladder — in the order you should climb it"
+            },
+            {
+              "level": 2,
+              "text": "4.2 Replication"
+            },
+            {
+              "level": 2,
+              "text": "4.3 Partitioning vs sharding"
+            },
+            {
+              "level": 2,
+              "text": "4.4 CAP, PACELC, and consistency models"
+            },
+            {
+              "level": 2,
+              "text": "4.5 Choosing a data store"
+            },
+            {
+              "level": 2,
+              "text": "4.6 Caching patterns"
+            },
+            {
+              "level": 2,
+              "text": "4.7 Rapid-fire answers"
+            }
+          ],
+          "path": "content/database/04-scaling-nosql-and-caching.md"
+        }
+      ]
+    },
+    {
+      "id": "architecture",
+      "label": "Architecture",
+      "icon": "🏛️",
+      "blurb": "System design, service boundaries, distributed systems, events.",
+      "count": 4,
+      "readingMinutes": 36,
+      "notes": [
+        {
+          "id": "01-system-design-fundamentals",
+          "filename": "01-system-design-fundamentals.md",
+          "title": "1. System Design Fundamentals",
+          "description": "The interview is not testing whether you can name technologies. It's testing whether you can start from requirements, do arithmetic, make a trade-off explicitly, and know where your design breaks.",
+          "words": 1515,
+          "codeLines": 19,
+          "readingMinutes": 8,
+          "headings": [
+            {
+              "level": 2,
+              "text": "1.1 A framework that works under pressure"
+            },
+            {
+              "level": 2,
+              "text": "1.2 The building blocks"
+            },
+            {
+              "level": 2,
+              "text": "1.3 Availability, latency, and the maths of nines"
+            },
+            {
+              "level": 2,
+              "text": "1.4 Rate limiting (a very common deep dive)"
+            },
+            {
+              "level": 2,
+              "text": "1.5 Two worked designs"
+            },
+            {
+              "level": 3,
+              "text": "URL shortener"
+            },
+            {
+              "level": 3,
+              "text": "News feed"
+            },
+            {
+              "level": 2,
+              "text": "1.6 Common bottlenecks and their standard fixes"
+            },
+            {
+              "level": 2,
+              "text": "1.7 Rapid-fire answers"
+            }
+          ],
+          "path": "content/architecture/01-system-design-fundamentals.md"
+        },
+        {
+          "id": "02-monolith-microservices-and-boundaries",
+          "filename": "02-monolith-microservices-and-boundaries.md",
+          "title": "2. Monolith, Modular Monolith & Microservices — Choosing Boundaries",
+          "description": "The 2026 consensus: start with a modular monolith and extract services when you have a specific, named reason — a component with a genuinely different scaling profile, a team that needs an independent release cadence,…",
+          "words": 1310,
+          "codeLines": 69,
+          "readingMinutes": 10,
+          "headings": [
+            {
+              "level": 2,
+              "text": "2.1 The honest comparison"
+            },
+            {
+              "level": 2,
+              "text": "2.2 Where to draw boundaries: DDD in practice"
+            },
+            {
+              "level": 2,
+              "text": "2.3 Layering: hexagonal / clean architecture"
+            },
+            {
+              "level": 2,
+              "text": "2.4 Communication between services"
+            },
+            {
+              "level": 2,
+              "text": "2.5 Cross-cutting concerns in a distributed system"
+            },
+            {
+              "level": 2,
+              "text": "2.6 Migration: strangler fig"
+            },
+            {
+              "level": 2,
+              "text": "2.7 Rapid-fire answers"
+            }
+          ],
+          "path": "content/architecture/02-monolith-microservices-and-boundaries.md"
+        },
+        {
+          "id": "03-distributed-systems-and-consistency",
+          "filename": "03-distributed-systems-and-consistency.md",
+          "title": "3. Distributed Systems & Consistency",
+          "description": "Every distributed bug you will ever debug is one of these assumptions being wrong:",
+          "words": 1330,
+          "codeLines": 28,
+          "readingMinutes": 8,
+          "headings": [
+            {
+              "level": 2,
+              "text": "3.1 The eight fallacies of distributed computing"
+            },
+            {
+              "level": 2,
+              "text": "3.2 Time, ordering, and clocks"
+            },
+            {
+              "level": 2,
+              "text": "3.3 Consensus and leader election"
+            },
+            {
+              "level": 2,
+              "text": "3.4 Delivery semantics"
+            },
+            {
+              "level": 2,
+              "text": "3.5 Replication, consistency, and conflict resolution"
+            },
+            {
+              "level": 2,
+              "text": "3.6 Failure handling patterns"
+            },
+            {
+              "level": 2,
+              "text": "3.7 Observability"
+            },
+            {
+              "level": 2,
+              "text": "3.8 Rapid-fire answers"
+            }
+          ],
+          "path": "content/architecture/03-distributed-systems-and-consistency.md"
+        },
+        {
+          "id": "04-event-driven-and-messaging",
+          "filename": "04-event-driven-and-messaging.md",
+          "title": "4. Event-Driven Architecture & Messaging",
+          "description": "Current state (Sept 2026): Kafka 4.x is ZooKeeper-free (KRaft), with tiered storage and queues for Kafka (KIP-932) making it viable for classic queue workloads. RabbitMQ 4.x has quorum queues as the default durable op…",
+          "words": 1468,
+          "codeLines": 58,
+          "readingMinutes": 10,
+          "headings": [
+            {
+              "level": 2,
+              "text": "4.1 Commands, events, and messages"
+            },
+            {
+              "level": 2,
+              "text": "4.2 Kafka vs RabbitMQ vs cloud queues"
+            },
+            {
+              "level": 2,
+              "text": "4.3 Kafka essentials"
+            },
+            {
+              "level": 2,
+              "text": "4.4 The Outbox pattern (the one everyone should know)"
+            },
+            {
+              "level": 2,
+              "text": "4.5 Sagas — transactions across services"
+            },
+            {
+              "level": 2,
+              "text": "4.6 Event sourcing and CQRS"
+            },
+            {
+              "level": 2,
+              "text": "4.7 Operating an event-driven system"
+            },
+            {
+              "level": 2,
+              "text": "4.8 Rapid-fire answers"
+            }
+          ],
+          "path": "content/architecture/04-event-driven-and-messaging.md"
+        }
+      ]
+    },
+    {
+      "id": "devops",
+      "label": "DevOps & CI/CD",
+      "icon": "🚀",
+      "blurb": "Git, Docker, Kubernetes, pipelines, observability and SRE.",
+      "count": 5,
+      "readingMinutes": 46,
+      "notes": [
+        {
+          "id": "01-git-and-branching",
+          "filename": "01-git-and-branching.md",
+          "title": "1. Git & Branching Strategy",
+          "description": "Working directory ──git add──► Staging (index) ──git commit──► Local repo (HEAD)",
+          "words": 870,
+          "codeLines": 75,
+          "readingMinutes": 8,
+          "headings": [
+            {
+              "level": 2,
+              "text": "1.1 The model: three trees plus the object store"
+            },
+            {
+              "level": 2,
+              "text": "1.2 The commands people get wrong"
+            },
+            {
+              "level": 2,
+              "text": "1.3 Branching strategies"
+            },
+            {
+              "level": 2,
+              "text": "1.4 Commits, PRs, and history hygiene"
+            },
+            {
+              "level": 2,
+              "text": "1.5 Conflicts, and recovering from mistakes"
+            },
+            {
+              "level": 2,
+              "text": "1.6 Repo hygiene"
+            },
+            {
+              "level": 2,
+              "text": "1.7 Rapid-fire answers"
+            }
+          ],
+          "path": "content/devops/01-git-and-branching.md"
+        },
+        {
+          "id": "02-docker-and-containers",
+          "filename": "02-docker-and-containers.md",
+          "title": "2. Docker & Containers",
+          "description": "Not a VM. A container is a Linux process with restricted visibility and resources:",
+          "words": 955,
+          "codeLines": 81,
+          "readingMinutes": 8,
+          "headings": [
+            {
+              "level": 2,
+              "text": "2.1 What a container actually is"
+            },
+            {
+              "level": 2,
+              "text": "2.2 A production Dockerfile, annotated"
+            },
+            {
+              "level": 2,
+              "text": "2.3 Networking, volumes, and compose"
+            },
+            {
+              "level": 2,
+              "text": "2.4 Container security"
+            },
+            {
+              "level": 2,
+              "text": "2.5 Debugging containers"
+            },
+            {
+              "level": 2,
+              "text": "2.6 Rapid-fire answers"
+            }
+          ],
+          "path": "content/devops/02-docker-and-containers.md"
+        },
+        {
+          "id": "03-kubernetes-and-deployment",
+          "filename": "03-kubernetes-and-deployment.md",
+          "title": "3. Kubernetes & Deployment Strategies",
+          "description": "Current state (Sept 2026): Kubernetes 1.37 is the newest release (1.35–1.37 are supported). Gateway API has replaced Ingress for new setups, sidecar containers are stable, and in-place pod resource resize has landed.…",
+          "words": 1180,
+          "codeLines": 123,
+          "readingMinutes": 11,
+          "headings": [
+            {
+              "level": 2,
+              "text": "3.1 The objects you actually use"
+            },
+            {
+              "level": 2,
+              "text": "3.2 A Deployment worth copying"
+            },
+            {
+              "level": 2,
+              "text": "3.3 Services, Ingress, and Gateway API"
+            },
+            {
+              "level": 2,
+              "text": "3.4 Config, secrets, and storage"
+            },
+            {
+              "level": 2,
+              "text": "3.5 Autoscaling"
+            },
+            {
+              "level": 2,
+              "text": "3.6 Deployment strategies"
+            },
+            {
+              "level": 2,
+              "text": "3.7 Debugging a cluster"
+            },
+            {
+              "level": 2,
+              "text": "3.8 Rapid-fire answers"
+            }
+          ],
+          "path": "content/devops/03-kubernetes-and-deployment.md"
+        },
+        {
+          "id": "04-cicd-pipelines",
+          "filename": "04-cicd-pipelines.md",
+          "title": "4. CI/CD Pipelines",
+          "description": "- Continuous Integration — every push is merged to trunk and verified by an automated build + test suite. The point is fast feedback on integration , not \"we have a Jenkins\".",
+          "words": 1112,
+          "codeLines": 123,
+          "readingMinutes": 11,
+          "headings": [
+            {
+              "level": 2,
+              "text": "4.1 CI vs CD vs CD"
+            },
+            {
+              "level": 2,
+              "text": "4.2 Pipeline stages, and what belongs where"
+            },
+            {
+              "level": 2,
+              "text": "4.3 A real GitHub Actions workflow"
+            },
+            {
+              "level": 2,
+              "text": "4.4 Testing strategy inside the pipeline"
+            },
+            {
+              "level": 2,
+              "text": "4.5 Infrastructure as Code"
+            },
+            {
+              "level": 2,
+              "text": "4.6 Rollback, incidents, and safety nets"
+            },
+            {
+              "level": 2,
+              "text": "4.7 Rapid-fire answers"
+            }
+          ],
+          "path": "content/devops/04-cicd-pipelines.md"
+        },
+        {
+          "id": "05-observability-and-sre",
+          "filename": "05-observability-and-sre.md",
+          "title": "5. Observability, SRE & Production Operations",
+          "description": "Monitoring answers questions you knew to ask (\"is CPU high?\"). Observability is the property that lets you answer questions you didn't anticipate (\"why are checkouts failing only for users in Chittagong on Android?\").…",
+          "words": 1326,
+          "codeLines": 38,
+          "readingMinutes": 8,
+          "headings": [
+            {
+              "level": 2,
+              "text": "5.1 Monitoring vs observability"
+            },
+            {
+              "level": 2,
+              "text": "5.2 Metrics that matter"
+            },
+            {
+              "level": 2,
+              "text": "5.3 Logging that's actually useful"
+            },
+            {
+              "level": 2,
+              "text": "5.4 Tracing"
+            },
+            {
+              "level": 2,
+              "text": "5.5 SLIs, SLOs, and error budgets"
+            },
+            {
+              "level": 2,
+              "text": "5.6 Alerting that doesn't burn people out"
+            },
+            {
+              "level": 2,
+              "text": "5.7 On-call and incident response"
+            },
+            {
+              "level": 2,
+              "text": "5.8 Rapid-fire answers"
+            }
+          ],
+          "path": "content/devops/05-observability-and-sre.md"
+        }
+      ]
+    },
+    {
+      "id": "security",
+      "label": "Cyber Security",
+      "icon": "🔐",
+      "blurb": "OWASP Top 10, auth, crypto, network and supply-chain security.",
+      "count": 3,
+      "readingMinutes": 31,
+      "notes": [
+        {
+          "id": "01-owasp-top-10-2025",
+          "filename": "01-owasp-top-10-2025.md",
+          "title": "1. OWASP Top 10 (2025) — Every Risk with a Fix",
+          "description": "The OWASP Top 10:2025 is the current list. Two categories are new since 2021 — Software Supply Chain Failures (A03) and Mishandling of Exceptional Conditions (A10) — and Security Misconfiguration climbed from 5 to 2.…",
+          "words": 1852,
+          "codeLines": 55,
+          "readingMinutes": 12,
+          "headings": [
+            {
+              "level": 2,
+              "text": "A01 — Broken Access Control"
+            },
+            {
+              "level": 2,
+              "text": "A02 — Security Misconfiguration"
+            },
+            {
+              "level": 2,
+              "text": "A03 — Software Supply Chain Failures (NEW)"
+            },
+            {
+              "level": 2,
+              "text": "A04 — Cryptographic Failures"
+            },
+            {
+              "level": 2,
+              "text": "A05 — Injection"
+            },
+            {
+              "level": 2,
+              "text": "A06 — Insecure Design"
+            },
+            {
+              "level": 2,
+              "text": "A07 — Authentication Failures"
+            },
+            {
+              "level": 2,
+              "text": "A08 — Software or Data Integrity Failures"
+            },
+            {
+              "level": 2,
+              "text": "A09 — Security Logging & Alerting Failures"
+            },
+            {
+              "level": 2,
+              "text": "A10 — Mishandling of Exceptional Conditions (NEW)"
+            },
+            {
+              "level": 2,
+              "text": "Rapid-fire answers"
+            }
+          ],
+          "path": "content/security/01-owasp-top-10-2025.md"
+        },
+        {
+          "id": "02-authentication-and-authorization",
+          "filename": "02-authentication-and-authorization.md",
+          "title": "2. Authentication & Authorization",
+          "description": "Authentication = who are you. Authorization = what may you do. They fail differently and are fixed differently — never conflate them in a design discussion.",
+          "words": 1243,
+          "codeLines": 76,
+          "readingMinutes": 10,
+          "headings": [
+            {
+              "level": 2,
+              "text": "2.1 Sessions vs tokens"
+            },
+            {
+              "level": 2,
+              "text": "2.2 JWT, precisely"
+            },
+            {
+              "level": 2,
+              "text": "2.3 OAuth 2.1 and OpenID Connect"
+            },
+            {
+              "level": 2,
+              "text": "2.4 Authorization models"
+            },
+            {
+              "level": 2,
+              "text": "2.5 Service-to-service and machine identity"
+            },
+            {
+              "level": 2,
+              "text": "2.6 Practical hardening for the auth surface"
+            },
+            {
+              "level": 2,
+              "text": "2.7 Rapid-fire answers"
+            }
+          ],
+          "path": "content/security/02-authentication-and-authorization.md"
+        },
+        {
+          "id": "03-appsec-network-and-supply-chain",
+          "filename": "03-appsec-network-and-supply-chain.md",
+          "title": "3. Application, Network & Supply-Chain Security",
+          "description": "Design → threat model, abuse cases, data classification",
+          "words": 1265,
+          "codeLines": 55,
+          "readingMinutes": 9,
+          "headings": [
+            {
+              "level": 2,
+              "text": "3.1 Secure SDLC — where security actually happens"
+            },
+            {
+              "level": 2,
+              "text": "3.2 Input validation and output encoding"
+            },
+            {
+              "level": 2,
+              "text": "3.3 Network and transport security"
+            },
+            {
+              "level": 2,
+              "text": "3.4 Secrets management"
+            },
+            {
+              "level": 2,
+              "text": "3.5 Privacy and data protection"
+            },
+            {
+              "level": 2,
+              "text": "3.6 A pre-launch security checklist"
+            },
+            {
+              "level": 2,
+              "text": "3.7 Rapid-fire answers"
+            }
+          ],
+          "path": "content/security/03-appsec-network-and-supply-chain.md"
+        }
+      ]
+    },
+    {
+      "id": "interview-mcq",
+      "label": "Interview MCQ",
+      "icon": "📝",
+      "blurb": "Multiple-choice drills across programming, DSA and CS basics.",
+      "count": 4,
+      "readingMinutes": 89,
+      "notes": [
+        {
+          "id": "01-Programming",
+          "filename": "01-Programming.md",
+          "title": "📘 Programming — MCQ Test Preparation Guide",
+          "description": "Covers: OOP · Design Patterns · API · Database · Networking · HTML/CSS · Programming Fundamentals",
+          "words": 3718,
+          "codeLines": 235,
+          "readingMinutes": 29,
+          "headings": [
+            {
+              "level": 3,
+              "text": "(Guide 1 of 4 — based on your \"MCQ Test Preparation Guideline\" image: Programming card)"
+            },
+            {
+              "level": 2,
+              "text": "Table of Contents"
+            },
+            {
+              "level": 2,
+              "text": "1. Object-Oriented Programming (OOP)"
+            },
+            {
+              "level": 3,
+              "text": "1.1 What is OOP? (Basic)"
+            },
+            {
+              "level": 3,
+              "text": "1.2 The Four Pillars (MOST asked OOP topic — know each with a one-line definition + example)"
+            },
+            {
+              "level": 3,
+              "text": "1.3 Class vs Object vs Interface vs Abstract Class"
+            },
+            {
+              "level": 3,
+              "text": "1.4 Advanced OOP Concepts"
+            },
+            {
+              "level": 3,
+              "text": "1.5 OOP in Other Languages (MCQ differences)"
+            },
+            {
+              "level": 3,
+              "text": "🔗 Learn More — OOP"
+            },
+            {
+              "level": 2,
+              "text": "2. SOLID Principles"
+            },
+            {
+              "level": 3,
+              "text": "🔗 Learn More — SOLID"
+            },
+            {
+              "level": 2,
+              "text": "3. Design Patterns"
+            },
+            {
+              "level": 3,
+              "text": "3.1 Creational Patterns (object creation )"
+            },
+            {
+              "level": 3,
+              "text": "3.2 Structural Patterns (how objects fit together )"
+            },
+            {
+              "level": 3,
+              "text": "3.3 Behavioral Patterns (how objects interact/communicate )"
+            },
+            {
+              "level": 3,
+              "text": "3.4 Architectural Patterns (often lumped into \"design patterns\" MCQs)"
+            },
+            {
+              "level": 3,
+              "text": "3.5 When NOT to use patterns (common \"gotcha\" MCQ)"
+            },
+            {
+              "level": 3,
+              "text": "🔗 Learn More — Design Patterns"
+            },
+            {
+              "level": 2,
+              "text": "4. API Concepts"
+            },
+            {
+              "level": 3,
+              "text": "4.1 What is an API? (Basic)"
+            },
+            {
+              "level": 3,
+              "text": "4.2 REST API Fundamentals"
+            },
+            {
+              "level": 3,
+              "text": "4.3 REST vs SOAP vs GraphQL vs gRPC"
+            },
+            {
+              "level": 3,
+              "text": "4.4 API Versioning Strategies"
+            },
+            {
+              "level": 3,
+              "text": "4.5 Authentication & Authorization for APIs"
+            },
+            {
+              "level": 3,
+              "text": "4.6 Idempotency in API Design (critical — connects directly to your backend-architecture study)"
+            },
+            {
+              "level": 3,
+              "text": "4.7 Rate Limiting & Pagination"
+            },
+            {
+              "level": 3,
+              "text": "🔗 Learn More — APIs"
+            },
+            {
+              "level": 2,
+              "text": "5. Database (Applied/Programming View)"
+            },
+            {
+              "level": 3,
+              "text": "5.1 SQL Basics"
+            },
+            {
+              "level": 3,
+              "text": "5.2 Join Types (a favorite MCQ diagram question)"
+            },
+            {
+              "level": 3,
+              "text": "5.3 ORMs & Data Access in Java (your daily stack)"
+            },
+            {
+              "level": 3,
+              "text": "5.4 Transactions in Code"
+            },
+            {
+              "level": 3,
+              "text": "5.5 SQL vs NoSQL (frequent MCQ)"
+            },
+            {
+              "level": 3,
+              "text": "🔗 Learn More — Database (applied)"
+            },
+            {
+              "level": 2,
+              "text": "6. Networking (Applied/Programming View)"
+            },
+            {
+              "level": 3,
+              "text": "6.1 Client-Server Communication in Code"
+            },
+            {
+              "level": 3,
+              "text": "6.2 Making HTTP Calls (what you actually do daily)"
+            },
+            {
+              "level": 3,
+              "text": "6.3 Key Concepts for Programming MCQs"
+            },
+            {
+              "level": 3,
+              "text": "🔗 Learn More — Networking (applied)"
+            },
+            {
+              "level": 2,
+              "text": "7. HTML/CSS"
+            },
+            {
+              "level": 3,
+              "text": "7.1 HTML Fundamentals"
+            },
+            {
+              "level": 3,
+              "text": "7.2 CSS Box Model (near-guaranteed MCQ diagram)"
+            },
+            {
+              "level": 3,
+              "text": "7.3 Flexbox vs Grid"
+            },
+            {
+              "level": 3,
+              "text": "7.4 CSS Specificity (commonly tested — \"which style wins?\")"
+            },
+            {
+              "level": 3,
+              "text": "7.5 Positioning"
+            },
+            {
+              "level": 3,
+              "text": "7.6 Responsive Design"
+            },
+            {
+              "level": 3,
+              "text": "🔗 Learn More — HTML/CSS"
+            },
+            {
+              "level": 2,
+              "text": "8. Programming Fundamentals"
+            },
+            {
+              "level": 3,
+              "text": "8.1 Variables, Data Types, and Memory"
+            },
+            {
+              "level": 3,
+              "text": "8.2 Pass by Value vs Pass by Reference (a classic trap question)"
+            },
+            {
+              "level": 3,
+              "text": "8.3 Control Structures"
+            },
+            {
+              "level": 3,
+              "text": "8.4 Functions/Methods"
+            },
+            {
+              "level": 3,
+              "text": "8.5 Java Streams & Functional-Style Code (increasingly common in modern MCQs)"
+            },
+            {
+              "level": 3,
+              "text": "8.6 Exception Handling"
+            },
+            {
+              "level": 3,
+              "text": "8.7 Static vs Instance"
+            },
+            {
+              "level": 3,
+              "text": "8.8 Memory Management & Garbage Collection"
+            },
+            {
+              "level": 3,
+              "text": "8.9 String Handling (extremely common MCQ area)"
+            },
+            {
+              "level": 3,
+              "text": "🔗 Learn More — Programming Fundamentals"
+            },
+            {
+              "level": 2,
+              "text": "9. Most Asked Interview Questions"
+            },
+            {
+              "level": 2,
+              "text": "10. Most Used Topics in Real Software Engineering"
+            },
+            {
+              "level": 3,
+              "text": "Git — commonly bundled into \"Programming Fundamentals\" MCQs"
+            },
+            {
+              "level": 3,
+              "text": "🔗 Learn More — Git"
+            }
+          ],
+          "path": "content/interview-mcq/01-Programming.md"
+        },
+        {
+          "id": "02-Data-Structures-Algorithms",
+          "filename": "02-Data-Structures-Algorithms.md",
+          "title": "📗 Data Structures & Algorithms — MCQ Test Preparation Guide",
+          "description": "Covers: Data Structures · Algorithms · Complexity Analysis · Recursion",
+          "words": 2986,
+          "codeLines": 231,
+          "readingMinutes": 25,
+          "headings": [
+            {
+              "level": 3,
+              "text": "(Guide 2 of 4 — based on your \"MCQ Test Preparation Guideline\" image: DSA card)"
+            },
+            {
+              "level": 2,
+              "text": "Table of Contents"
+            },
+            {
+              "level": 2,
+              "text": "1. Complexity Analysis (Big O)"
+            },
+            {
+              "level": 3,
+              "text": "1.1 What Big O Measures"
+            },
+            {
+              "level": 3,
+              "text": "1.2 Complexity Classes (memorize this order — smallest to largest growth)"
+            },
+            {
+              "level": 3,
+              "text": "1.3 Best, Average, Worst Case"
+            },
+            {
+              "level": 3,
+              "text": "1.4 Time Complexity — Practical Examples"
+            },
+            {
+              "level": 3,
+              "text": "1.5 Space Complexity"
+            },
+            {
+              "level": 3,
+              "text": "1.6 Common MCQ Traps"
+            },
+            {
+              "level": 3,
+              "text": "🔗 Learn More — Complexity"
+            },
+            {
+              "level": 2,
+              "text": "2. Recursion"
+            },
+            {
+              "level": 3,
+              "text": "2.1 What is Recursion?"
+            },
+            {
+              "level": 3,
+              "text": "2.2 How Recursion Works — The Call Stack"
+            },
+            {
+              "level": 3,
+              "text": "2.3 Classic Recursion Examples"
+            },
+            {
+              "level": 3,
+              "text": "2.4 Recursion vs Iteration"
+            },
+            {
+              "level": 3,
+              "text": "2.5 Backtracking (recursion + undo — very commonly tested)"
+            },
+            {
+              "level": 3,
+              "text": "🔗 Learn More — Recursion"
+            },
+            {
+              "level": 2,
+              "text": "3. Arrays & Strings"
+            },
+            {
+              "level": 3,
+              "text": "🔗 Learn More"
+            },
+            {
+              "level": 2,
+              "text": "4. Linked Lists"
+            },
+            {
+              "level": 3,
+              "text": "🔗 Learn More"
+            },
+            {
+              "level": 2,
+              "text": "5. Stacks & Queues"
+            },
+            {
+              "level": 3,
+              "text": "5.1 Stack — LIFO (Last In, First Out)"
+            },
+            {
+              "level": 3,
+              "text": "5.2 Queue — FIFO (First In, First Out)"
+            },
+            {
+              "level": 3,
+              "text": "🔗 Learn More"
+            },
+            {
+              "level": 2,
+              "text": "6. Hashing"
+            },
+            {
+              "level": 3,
+              "text": "6.1 Hash Table / Hash Map Basics"
+            },
+            {
+              "level": 3,
+              "text": "6.2 Why Hashing is Everywhere in Interviews"
+            },
+            {
+              "level": 3,
+              "text": "🔗 Learn More"
+            },
+            {
+              "level": 2,
+              "text": "7. Trees"
+            },
+            {
+              "level": 3,
+              "text": "7.1 Terminology"
+            },
+            {
+              "level": 3,
+              "text": "7.2 Binary Tree vs Binary Search Tree (BST)"
+            },
+            {
+              "level": 3,
+              "text": "7.3 Tree Traversals (near-guaranteed MCQ — know all 4)"
+            },
+            {
+              "level": 3,
+              "text": "7.4 Balanced Trees"
+            },
+            {
+              "level": 3,
+              "text": "7.5 Heaps as trees — see Section 8."
+            },
+            {
+              "level": 3,
+              "text": "7.6 Common Tree Interview Problems"
+            },
+            {
+              "level": 3,
+              "text": "🔗 Learn More"
+            },
+            {
+              "level": 2,
+              "text": "8. Heaps / Priority Queues"
+            },
+            {
+              "level": 3,
+              "text": "🔗 Learn More"
+            },
+            {
+              "level": 2,
+              "text": "9. Graphs"
+            },
+            {
+              "level": 3,
+              "text": "9.1 Representations"
+            },
+            {
+              "level": 3,
+              "text": "9.2 Graph Traversal — BFS vs DFS (must know when to use which)"
+            },
+            {
+              "level": 3,
+              "text": "9.3 Shortest Path Algorithms"
+            },
+            {
+              "level": 3,
+              "text": "9.4 Other Essential Graph Algorithms"
+            },
+            {
+              "level": 3,
+              "text": "🔗 Learn More"
+            },
+            {
+              "level": 2,
+              "text": "10. Tries"
+            },
+            {
+              "level": 3,
+              "text": "🔗 Learn More"
+            },
+            {
+              "level": 2,
+              "text": "11. Sorting Algorithms"
+            },
+            {
+              "level": 3,
+              "text": "11.1 Comparison Table (a guaranteed MCQ table — memorize this)"
+            },
+            {
+              "level": 3,
+              "text": "11.2 Merge Sort (Divide and Conquer — must be able to write from memory)"
+            },
+            {
+              "level": 3,
+              "text": "11.3 Quick Sort (Divide and Conquer, in-place — the other must-know)"
+            },
+            {
+              "level": 3,
+              "text": "11.4 Which sort does Java/Python use internally?"
+            },
+            {
+              "level": 3,
+              "text": "🔗 Learn More"
+            },
+            {
+              "level": 2,
+              "text": "12. Searching Algorithms"
+            },
+            {
+              "level": 3,
+              "text": "🔗 Learn More"
+            },
+            {
+              "level": 2,
+              "text": "13. Algorithm Paradigms"
+            },
+            {
+              "level": 3,
+              "text": "13.1 Divide and Conquer"
+            },
+            {
+              "level": 3,
+              "text": "13.2 Greedy Algorithms"
+            },
+            {
+              "level": 3,
+              "text": "13.3 Dynamic Programming (DP) — \"the most feared topic,\" but pattern-based"
+            },
+            {
+              "level": 3,
+              "text": "13.4 Backtracking"
+            },
+            {
+              "level": 3,
+              "text": "13.5 Two Pointers / Sliding Window"
+            },
+            {
+              "level": 3,
+              "text": "🔗 Learn More — DP"
+            },
+            {
+              "level": 2,
+              "text": "14. The 10 Highest-ROI Coding Interview Patterns"
+            },
+            {
+              "level": 3,
+              "text": "🔗 Learn More"
+            },
+            {
+              "level": 2,
+              "text": "15. Most Asked Interview Questions"
+            },
+            {
+              "level": 2,
+              "text": "16. Most Used in Real Software Engineering"
+            },
+            {
+              "level": 3,
+              "text": "🔗 Learn More — General DSA"
+            }
+          ],
+          "path": "content/interview-mcq/02-Data-Structures-Algorithms.md"
+        },
+        {
+          "id": "03-CS-Fundamentals",
+          "filename": "03-CS-Fundamentals.md",
+          "title": "📙 CS Fundamentals — MCQ Test Preparation Guide",
+          "description": "Covers: Database · Networking · Operating Systems · Security · API/HTTP · General Knowledge",
+          "words": 4021,
+          "codeLines": 20,
+          "readingMinutes": 21,
+          "headings": [
+            {
+              "level": 3,
+              "text": "(Guide 3 of 4 — based on your \"MCQ Test Preparation Guideline\" image: CS Fundamentals card)"
+            },
+            {
+              "level": 2,
+              "text": "Table of Contents"
+            },
+            {
+              "level": 2,
+              "text": "1. Database Management Systems (DBMS)"
+            },
+            {
+              "level": 3,
+              "text": "1.1 DBMS vs RDBMS"
+            },
+            {
+              "level": 3,
+              "text": "1.2 Keys (a guaranteed MCQ set)"
+            },
+            {
+              "level": 3,
+              "text": "1.3 Normalization (extremely high-frequency MCQ topic)"
+            },
+            {
+              "level": 3,
+              "text": "1.4 ACID Properties (must be able to explain each with an example)"
+            },
+            {
+              "level": 3,
+              "text": "1.5 Transaction Isolation Levels (advanced, frequently tested for backend roles)"
+            },
+            {
+              "level": 3,
+              "text": "1.6 Indexing"
+            },
+            {
+              "level": 3,
+              "text": "1.7 SQL Query Execution Order (a favorite trick MCQ — the order you WRITE differs from the order it EXECUTES)"
+            },
+            {
+              "level": 3,
+              "text": "1.8 SQL vs NoSQL & CAP Theorem"
+            },
+            {
+              "level": 3,
+              "text": "1.9 Replication & Sharding (scaling, relevant to your microservices work)"
+            },
+            {
+              "level": 3,
+              "text": "🔗 Learn More — Database"
+            },
+            {
+              "level": 2,
+              "text": "2. Computer Networking"
+            },
+            {
+              "level": 3,
+              "text": "2.1 The OSI Model (7 layers — a near-certain MCQ, memorize top-to-bottom and bottom-to-top)"
+            },
+            {
+              "level": 3,
+              "text": "2.2 TCP/IP Model (4 layers — the practical model the internet actually runs on)"
+            },
+            {
+              "level": 3,
+              "text": "2.3 TCP vs UDP (guaranteed MCQ comparison)"
+            },
+            {
+              "level": 3,
+              "text": "2.4 IP Addressing & Subnetting"
+            },
+            {
+              "level": 3,
+              "text": "2.5 DNS (Domain Name System)"
+            },
+            {
+              "level": 3,
+              "text": "2.6 Key Network Devices"
+            },
+            {
+              "level": 3,
+              "text": "2.7 Routing Protocols (part of your networking roadmap)"
+            },
+            {
+              "level": 3,
+              "text": "2.8 Application Layer Protocols Cheat Sheet"
+            },
+            {
+              "level": 3,
+              "text": "2.9 Load Balancing Algorithms"
+            },
+            {
+              "level": 3,
+              "text": "🔗 Learn More — Networking"
+            },
+            {
+              "level": 2,
+              "text": "3. Operating Systems"
+            },
+            {
+              "level": 3,
+              "text": "3.1 Process vs Thread (the 1 most-asked OS question)"
+            },
+            {
+              "level": 3,
+              "text": "3.2 Process States"
+            },
+            {
+              "level": 3,
+              "text": "3.3 CPU Scheduling Algorithms"
+            },
+            {
+              "level": 3,
+              "text": "3.4 Concurrency & Synchronization"
+            },
+            {
+              "level": 3,
+              "text": "3.5 Deadlock (must know the 4 Coffman conditions)"
+            },
+            {
+              "level": 3,
+              "text": "3.6 Memory Management"
+            },
+            {
+              "level": 3,
+              "text": "3.7 Fragmentation"
+            },
+            {
+              "level": 3,
+              "text": "3.8 Multithreading Models & Modern Java Concurrency (directly tied to your Virtual Threads study)"
+            },
+            {
+              "level": 3,
+              "text": "🔗 Learn More — OS"
+            },
+            {
+              "level": 2,
+              "text": "4. Security"
+            },
+            {
+              "level": 3,
+              "text": "4.1 Authentication vs Authorization (the 1 most-confused pair — always tested)"
+            },
+            {
+              "level": 3,
+              "text": "4.2 OWASP Top 10 (2025 edition — the current official list, verified against owasp.org)"
+            },
+            {
+              "level": 3,
+              "text": "4.3 Common Attacks Explained"
+            },
+            {
+              "level": 3,
+              "text": "4.4 Encryption Fundamentals"
+            },
+            {
+              "level": 3,
+              "text": "4.5 OAuth 2.0 / 2.1 & JWT (you've already studied this — key MCQ points)"
+            },
+            {
+              "level": 3,
+              "text": "4.6 Zero Trust Architecture (NIST SP 800-207 — part of your roadmap)"
+            },
+            {
+              "level": 3,
+              "text": "4.7 Security Testing & Tools (mentioned in your roadmap)"
+            },
+            {
+              "level": 3,
+              "text": "🔗 Learn More — Security"
+            },
+            {
+              "level": 2,
+              "text": "5. API / HTTP Deep Dive"
+            },
+            {
+              "level": 3,
+              "text": "5.1 Statelessness — Why It Matters"
+            },
+            {
+              "level": 3,
+              "text": "5.2 Caching Headers"
+            },
+            {
+              "level": 3,
+              "text": "5.3 HTTP/1.1 vs HTTP/2 vs HTTP/3"
+            },
+            {
+              "level": 3,
+              "text": "5.4 Statelessness vs Sessions in Practice"
+            },
+            {
+              "level": 3,
+              "text": "🔗 Learn More"
+            },
+            {
+              "level": 2,
+              "text": "6. General Knowledge"
+            },
+            {
+              "level": 3,
+              "text": "6.1 Software Development Lifecycle (SDLC)"
+            },
+            {
+              "level": 3,
+              "text": "6.2 Agile / Scrum Basics"
+            },
+            {
+              "level": 3,
+              "text": "6.3 Version Control (see also Section 10 for commands)"
+            },
+            {
+              "level": 3,
+              "text": "6.4 CI/CD"
+            },
+            {
+              "level": 3,
+              "text": "6.5 Containers & Cloud Basics"
+            },
+            {
+              "level": 3,
+              "text": "6.6 Cloud Service Models"
+            },
+            {
+              "level": 3,
+              "text": "6.7 Compiler vs Interpreter"
+            },
+            {
+              "level": 3,
+              "text": "6.8 CPU, GPU, TPU (you've studied this — quick recap)"
+            },
+            {
+              "level": 3,
+              "text": "🔗 Learn More — General Knowledge"
+            },
+            {
+              "level": 2,
+              "text": "7. Most Asked Interview Questions"
+            },
+            {
+              "level": 2,
+              "text": "8. Most Used in Real Software Engineering"
+            },
+            {
+              "level": 3,
+              "text": "🔗 Learn More — General"
+            }
+          ],
+          "path": "content/interview-mcq/03-CS-Fundamentals.md"
+        },
+        {
+          "id": "04-Logical-Reasoning",
+          "filename": "04-Logical-Reasoning.md",
+          "title": "📕 Logical Reasoning — MCQ Test Preparation Guide",
+          "description": "Covers: Analytical Challenges · Simple Mathematics",
+          "words": 1487,
+          "codeLines": 140,
+          "readingMinutes": 14,
+          "headings": [
+            {
+              "level": 3,
+              "text": "(Guide 4 of 4 — based on your \"MCQ Test Preparation Guideline\" image: Logical Reasoning card)"
+            },
+            {
+              "level": 2,
+              "text": "Table of Contents"
+            },
+            {
+              "level": 2,
+              "text": "1. How This Section Is Usually Structured"
+            },
+            {
+              "level": 2,
+              "text": "2. Analytical Challenges — Verbal Reasoning"
+            },
+            {
+              "level": 3,
+              "text": "2.1 Coding–Decoding"
+            },
+            {
+              "level": 3,
+              "text": "2.2 Blood Relations"
+            },
+            {
+              "level": 3,
+              "text": "2.3 Syllogism"
+            },
+            {
+              "level": 3,
+              "text": "2.4 Series Completion (Number / Alphabet / Alphanumeric)"
+            },
+            {
+              "level": 3,
+              "text": "2.5 Analogy"
+            },
+            {
+              "level": 3,
+              "text": "2.6 Classification (Odd One Out)"
+            },
+            {
+              "level": 3,
+              "text": "2.7 Direction Sense"
+            },
+            {
+              "level": 3,
+              "text": "2.8 Seating Arrangement & Puzzles"
+            },
+            {
+              "level": 3,
+              "text": "2.9 Statement & Conclusion / Assumption"
+            },
+            {
+              "level": 3,
+              "text": "🔗 Learn More — Verbal Reasoning"
+            },
+            {
+              "level": 2,
+              "text": "3. Analytical Challenges — Non-Verbal Reasoning"
+            },
+            {
+              "level": 3,
+              "text": "🔗 Learn More — Non-Verbal Reasoning"
+            },
+            {
+              "level": 2,
+              "text": "4. Simple Mathematics — Core Topics"
+            },
+            {
+              "level": 3,
+              "text": "4.1 Percentages"
+            },
+            {
+              "level": 3,
+              "text": "4.2 Profit & Loss"
+            },
+            {
+              "level": 3,
+              "text": "4.3 Simple Interest (SI) & Compound Interest (CI)"
+            },
+            {
+              "level": 3,
+              "text": "4.4 Ratio & Proportion"
+            },
+            {
+              "level": 3,
+              "text": "4.5 Time, Speed & Distance"
+            },
+            {
+              "level": 3,
+              "text": "4.6 Time & Work"
+            },
+            {
+              "level": 3,
+              "text": "4.7 Averages"
+            },
+            {
+              "level": 3,
+              "text": "4.8 Permutations & Combinations"
+            },
+            {
+              "level": 3,
+              "text": "4.9 Probability"
+            },
+            {
+              "level": 3,
+              "text": "4.10 Number Systems"
+            },
+            {
+              "level": 3,
+              "text": "4.11 Mixtures & Alligation"
+            },
+            {
+              "level": 3,
+              "text": "4.12 Pipes & Cisterns (a Time & Work variant)"
+            },
+            {
+              "level": 3,
+              "text": "4.13 Ages"
+            },
+            {
+              "level": 3,
+              "text": "4.14 Clocks & Calendars (lower-frequency but occasionally tested)"
+            },
+            {
+              "level": 3,
+              "text": "🔗 Learn More — Quantitative Aptitude"
+            },
+            {
+              "level": 2,
+              "text": "5. Time-Saving Formulas Cheat Sheet"
+            },
+            {
+              "level": 2,
+              "text": "6. Most Asked Question Types (Practice Set)"
+            },
+            {
+              "level": 2,
+              "text": "7. Exam-Day Strategy"
+            },
+            {
+              "level": 2,
+              "text": "8. Learn More — General Aptitude Practice"
+            },
+            {
+              "level": 2,
+              "text": "📚 Full Set Recap"
+            }
+          ],
+          "path": "content/interview-mcq/04-Logical-Reasoning.md"
         }
       ]
     }
